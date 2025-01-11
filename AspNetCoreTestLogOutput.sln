@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreTestLogOutput.Api", "AspNetCoreTestLogOutput.Api\AspNetCoreTestLogOutput.Api.csproj", "{46E61361-32FD-4166-AA09-6943ED3E20F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreTestLogOutput.Test", "AspNetCoreTestLogOutput.Test\AspNetCoreTestLogOutput.Test.csproj", "{79EADCEF-D290-4701-A8A8-64AA15023C1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E61361-32FD-4166-AA09-6943ED3E20F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E61361-32FD-4166-AA09-6943ED3E20F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E61361-32FD-4166-AA09-6943ED3E20F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E61361-32FD-4166-AA09-6943ED3E20F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79EADCEF-D290-4701-A8A8-64AA15023C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79EADCEF-D290-4701-A8A8-64AA15023C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79EADCEF-D290-4701-A8A8-64AA15023C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79EADCEF-D290-4701-A8A8-64AA15023C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

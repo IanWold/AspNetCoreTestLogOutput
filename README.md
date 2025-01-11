@@ -1,0 +1,3 @@
+# ASP.NET Core Test Log Output
+
+This repository gives a simple example as to how to test log output in an integration test for an ASP.NET Core API. The `Api` project contains a simple API setup with one `/test` endpoint that logs an error level. The `Test` project contains an `ILoggerProvider` implementation to capture logs and expose them in a way that the tests can easily read. The single `Test.TestErrorLogged` test demonstrates how to inject the test logger into the host when setting up a `WebApplicationFactory`.
